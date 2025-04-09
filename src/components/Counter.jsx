@@ -8,6 +8,9 @@ const x = {
   y : 234234
 }
 
+
+const y = "om sayd"
+
 const Counter = () => {
   const dispatch = useDispatch()
   const countValue = useSelector(state => state.counter.countValue)
