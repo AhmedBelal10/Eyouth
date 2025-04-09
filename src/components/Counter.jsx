@@ -4,7 +4,8 @@ import { action1, action2 } from '../store/slices/counterSlice'
 
 const x = {
   name : "mohamedasdasdasd",
-  age : 56645646
+  age : 56645646,
+  y : 234234
 }
 
 const Counter = () => {
