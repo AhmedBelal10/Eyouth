@@ -2,6 +2,11 @@ import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { action1, action2 } from '../store/slices/counterSlice'
 
+const x = {
+  name : "mohamedasdasdasd",
+  age : 56645646
+}
+
 const Counter = () => {
   const dispatch = useDispatch()
   const countValue = useSelector(state => state.counter.countValue)
